@@ -1,9 +1,9 @@
 {
   "expo": {
-    "name": "Music Player Expo",
-    "slug": "music-player-expo",
+    "name": "CCL-expo",
+    "slug": "ccl-expo",
     "privacy": "public",
-    "sdkVersion": "34.0.0",
+    "sdkVersion": "36.0.0",
     "platforms": [
       "ios",
       "android",
@@ -25,6 +25,7 @@
     ],
     "ios": {
       "supportsTablet": true
-    }
+    },
+    "description": ""
   }
 }

@@ -5,12 +5,12 @@ import { Audio } from 'expo-av'
 
 const audioBookPlaylist = [
 	{
-		title: 'Hamlet - Act I',
-		author: 'William Shakespeare',
-		source: 'Librivox',
+		title: 'Unknown',
+		author: 'Night Shift',
+		source: 'CoolCats Live',
 		uri:
-			'https://ia800204.us.archive.org/11/items/hamlet_0911_librivox/hamlet_act1_shakespeare.mp3',
-		imageSource: 'http://www.archive.org/download/LibrivoxCdCoverArt8/hamlet_1104.jpg'
+			'https://echo.refreshradio.live/radio/8000/radio.mp3',
+		imageSource: 'https://coolcats.live/wp-content/uploads/sites/3/2019/10/cool-cats-radio.jpg'
 	},
 	{
 		title: 'Hamlet - Act II',
@@ -157,7 +157,7 @@ export default class App extends React.Component {
 			<View style={styles.container}>
 				<Image
 					style={styles.albumCover}
-					source={{ uri: 'http://www.archive.org/download/LibrivoxCdCoverArt8/hamlet_1104.jpg' }}
+					source={{ uri: 'https://coolcats.live/wp-content/uploads/sites/3/2019/10/cool-cats-radio.jpg' }}
 				/>
 				<View style={styles.controls}>
 					<TouchableOpacity style={styles.control} onPress={this.handlePreviousTrack}>
